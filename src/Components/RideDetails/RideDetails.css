@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ridemainContainer{
+    position: absolute;
+    top: 10vh;
+}
