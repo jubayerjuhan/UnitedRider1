@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-left: 3%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    /* left: 4%; */
+    width: 50%;
+}
+
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    /* position: absolute; */
+    /* right: 0; */
+}
+
+.navlinks button{
+    background: linear-gradient(90deg, rgba(228,139,91,1) 0%, rgba(213,127,80,1) 50%, rgba(187,88,35,1) 100%, rgba(45,40,113,1) 100%);    border: none;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: inter;
+    border-radius: 5px;
+}

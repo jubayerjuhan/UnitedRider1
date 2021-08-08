@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 90%;
+    min-height: 10vh;
+    left: 5%;
+    right: 5%;
+    /* background: purple; */
+}
+.homepage-Container{
+    background: url("../../Image/Bg.png") no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: center;
+    background-position: center; */
+}
+
