@@ -3,6 +3,7 @@
     padding: 0;
 }
 .signUpContainer{
-    position: absolute;
+    position: relative;
     top: 10vh;
+    width: 100%;
 }

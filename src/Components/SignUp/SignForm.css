@@ -1,0 +1,41 @@
+.input{
+    height: 5vh;
+    width: 50vh;
+    margin-bottom: 3vh;
+    border-style: none;
+    border-bottom: 1px solid lightgrey;
+    font-family: inter;
+    font-size: 14px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+span{
+    transform:translateY(-80%) translateX(10vh);
+    align-self: flex-start;
+    color: red;
+    font-size: 12px;
+    
+}
+.signup-form{
+    margin-top: 2vh;
+    border: 1px solid gray;
+    height: 80vh;
+    width: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(62vh);
+}
+.SignupTitle{
+    position: relative;
+    top: -5vh
+}
+
+#btn{
+    margin-top: 5vh;
+}
