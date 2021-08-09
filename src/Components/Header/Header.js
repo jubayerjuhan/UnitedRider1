@@ -2,10 +2,9 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'
 import { UserContext } from "./../../App";
-import { handleSignOut } from "./../SignUp/SignupManager";
 const Header = () => {
 	const [loggedInUser, setLoggedInUser] = useContext(UserContext);
-	console.log(loggedInUser);
+	// console.log(loggedInUser);
 
 	return (
 		<>
