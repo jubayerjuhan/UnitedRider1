@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import './RideDetails.css'
 const RideDetails = () => {
-    const {type} = useParams()
+    const {type} = useParams();
     console.log(type);
 
     return (
