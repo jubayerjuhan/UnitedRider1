@@ -23,7 +23,7 @@ const SignUp = () => {
         firebase.auth()
             .signInWithPopup(GoogleProvider)
             .then((result) => {
-                var credential = result.credential;
+                // var credential = result.credential;
                 var user = result.user;
                 user.isSignedIn = true;
                 setLoggedInUser(user)
@@ -32,10 +32,10 @@ const SignUp = () => {
                 // ...
             }).catch((error) => {
                 // Handle Errors here.
-                var errorCode = error.code;
+                // var errorCode = error.code;
                 var errorMessage = error.message;
-                var email = error.email;
-                var credential = error.credential;
+                // var email = error.email;
+                // var credential = error.credential;
                 console.log(errorMessage)
                 // ...
             });

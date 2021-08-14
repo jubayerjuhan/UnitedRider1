@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { useParams, useHistory } from "react-router-dom";
 import './RideDetails.css'
 import mapImg from '../../Image/Map.png'
