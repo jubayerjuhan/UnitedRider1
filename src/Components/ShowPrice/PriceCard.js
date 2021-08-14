@@ -1,14 +1,7 @@
-import React, { useContext } from 'react';
-import car from '../../Image/Car.png'
+import React, { useContext } from 'react'
 import { UserContext } from "./../../App";
-import Car from '../../Image/Car.png'
-import Bus from '../../Image/Bus.png'
-import Train from '../../Image/Train.png'
-import Motorcycle from '../../Image/Motorcycle.png'
-const PriceCard = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    const [loggedInUser] = useContext(UserContext);
     console.log(loggedInUser.rideType);
-    const vic = "Train";
     return (
         <>
             <div className="pcContainer">
