@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
 import { UserContext } from "./../../App";
-    const [loggedInUser] = useContext(UserContext);
-    console.log(loggedInUser.rideType);
+    const PriceCard = () => {
+        const [loggedInUser] = useContext(UserContext);
+        console.log(loggedInUser.rideType);
     return (
         <>
             <div className="pcContainer">
