@@ -5,7 +5,8 @@ import Header from './Components/Header/Header.js';
 import Homepage from "./Components/Homepage/Homepage";
 import RideDetails from "./Components/RideDetails/RideDetails";
 import SignUp from "./Components/SignUp/SignUp";
-import Privateroute from "./Components/SignUp/Privateroute/Privateroute";
+import ShowPrice from "./Components/ShowPrice/ShowPrice";
+import Protectedroute from "./Components/ProtectedRoute/Protectedroute";
 export const UserContext = createContext();
 
 function App() {
@@ -21,11 +22,15 @@ function App() {
             <Homepage />
           </Route>
 
-          <Route path="/ride/:type">
-            <RideDetails />
-          </Route>
+          <Protectedroute path="/ride/:type/price">
+            <ShowPrice />
+          </Protectedroute>
 
-          <Route path="/sign-up">
+          <Protectedroute path="/ride/:type">
+            <RideDetails />
+          </Protectedroute>
+
+          <Route path="/login">
             <SignUp />
           </Route>
 
@@ -35,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;//kjmcfzv

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { UserContext } from "./../../App";
 
 const SingleCardComponent = ({ ride }) => {
-    // const ride = props.ride;
     return (
         <Link to={`/ride/${ride.type}`}>
             <div className="mainContainer">

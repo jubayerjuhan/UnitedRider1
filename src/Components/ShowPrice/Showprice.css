@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pricePage{
+    position: relative;
+    top: 10vh;
+    width: 100%;
+    height: 100%;
+}
+
+.destinationAndPrice{
+    background: #EFEFEF;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+    border-radius: 10px;
+    padding: 1vh 0vh;
+    overflow: hidden;
+}
+.destination{
+    color: white;
+    background:#D17949 ;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 2vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vh;
+    padding-right: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.destination h2{
+    margin: 7px 0px;
+    position: relative;
+}
+
+.priceCard img{
+    width: 20%;
+    height: 20%;
+    margin-left: 3vh;
+}
+.priceofride{
+    margin-right: 3vh;
+}
+
+.priceCard{
+    background: white;
+    border-radius: 10px;
+    margin: 2vh 2.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 0;
+}
+
+span{
+    all: unset;
+}
+span h3{
+    all:unset;
+}
+
+.fas{
+    margin-left: 2vh;
+    margin-right: 1vh;
+}

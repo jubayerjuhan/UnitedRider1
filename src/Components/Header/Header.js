@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css'
 import { UserContext } from "./../../App";
 const Header = () => {
-	const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+	const [loggedInUser] = useContext(UserContext);
 	// console.log(loggedInUser);
 
 	return (
@@ -22,7 +22,7 @@ const Header = () => {
 					{
 						loggedInUser.isSignedIn ?
 						<li><button>Welcome, {loggedInUser.displayName}</button></li>:
-						<li><Link to="/Sign-up"><button>Sign Up</button></Link></li>
+						<li><Link to="/login"><button>Sign Up</button></Link></li>
 					}
 				</ul>
 			</nav>
